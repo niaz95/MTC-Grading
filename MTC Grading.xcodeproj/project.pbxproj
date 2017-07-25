@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		809CC5AB1F272CDA00A814C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CC5AA1F272CDA00A814C8 /* AppDelegate.swift */; };
+		809CC5AD1F272CDA00A814C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CC5AC1F272CDA00A814C8 /* ViewController.swift */; };
+		809CC5B01F272CDA00A814C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809CC5AE1F272CDA00A814C8 /* Main.storyboard */; };
+		809CC5B31F272CDA00A814C8 /* MTC_Grading.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 809CC5B11F272CDA00A814C8 /* MTC_Grading.xcdatamodeld */; };
+		809CC5B51F272CDA00A814C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 809CC5B41F272CDA00A814C8 /* Assets.xcassets */; };
+		809CC5B81F272CDA00A814C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809CC5B61F272CDA00A814C8 /* LaunchScreen.storyboard */; };
+		809CC5C31F272CDA00A814C8 /* MTC_GradingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CC5C21F272CDA00A814C8 /* MTC_GradingTests.swift */; };
+		809CC5CE1F272CDA00A814C8 /* MTC_GradingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CC5CD1F272CDA00A814C8 /* MTC_GradingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		809CC5BF1F272CDA00A814C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 809CC59F1F272CD900A814C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 809CC5A61F272CDA00A814C8;
+			remoteInfo = "MTC Grading";
+		};
+		809CC5CA1F272CDA00A814C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 809CC59F1F272CD900A814C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 809CC5A61F272CDA00A814C8;
+			remoteInfo = "MTC Grading";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		809CC5A71F272CDA00A814C8 /* MTC Grading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MTC Grading.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		809CC5AA1F272CDA00A814C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		809CC5AC1F272CDA00A814C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		809CC5AF1F272CDA00A814C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		809CC5B21F272CDA00A814C8 /* MTC_Grading.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MTC_Grading.xcdatamodel; sourceTree = "<group>"; };
+		809CC5B41F272CDA00A814C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		809CC5B71F272CDA00A814C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		809CC5B91F272CDA00A814C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		809CC5BE1F272CDA00A814C8 /* MTC GradingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MTC GradingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		809CC5C21F272CDA00A814C8 /* MTC_GradingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTC_GradingTests.swift; sourceTree = "<group>"; };
+		809CC5C41F272CDA00A814C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		809CC5C91F272CDA00A814C8 /* MTC GradingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MTC GradingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		809CC5CD1F272CDA00A814C8 /* MTC_GradingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTC_GradingUITests.swift; sourceTree = "<group>"; };
+		809CC5CF1F272CDA00A814C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		809CC5A41F272CDA00A814C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809CC5BB1F272CDA00A814C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809CC5C61F272CDA00A814C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		809CC59E1F272CD900A814C8 = {
+			isa = PBXGroup;
+			children = (
+				809CC5A91F272CDA00A814C8 /* MTC Grading */,
+				809CC5C11F272CDA00A814C8 /* MTC GradingTests */,
+				809CC5CC1F272CDA00A814C8 /* MTC GradingUITests */,
+				809CC5A81F272CDA00A814C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		809CC5A81F272CDA00A814C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				809CC5A71F272CDA00A814C8 /* MTC Grading.app */,
+				809CC5BE1F272CDA00A814C8 /* MTC GradingTests.xctest */,
+				809CC5C91F272CDA00A814C8 /* MTC GradingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		809CC5A91F272CDA00A814C8 /* MTC Grading */ = {
+			isa = PBXGroup;
+			children = (
+				809CC5AA1F272CDA00A814C8 /* AppDelegate.swift */,
+				809CC5AC1F272CDA00A814C8 /* ViewController.swift */,
+				809CC5AE1F272CDA00A814C8 /* Main.storyboard */,
+				809CC5B41F272CDA00A814C8 /* Assets.xcassets */,
+				809CC5B61F272CDA00A814C8 /* LaunchScreen.storyboard */,
+				809CC5B91F272CDA00A814C8 /* Info.plist */,
+				809CC5B11F272CDA00A814C8 /* MTC_Grading.xcdatamodeld */,
+			);
+			path = "MTC Grading";
+			sourceTree = "<group>";
+		};
+		809CC5C11F272CDA00A814C8 /* MTC GradingTests */ = {
+			isa = PBXGroup;
+			children = (
+				809CC5C21F272CDA00A814C8 /* MTC_GradingTests.swift */,
+				809CC5C41F272CDA00A814C8 /* Info.plist */,
+			);
+			path = "MTC GradingTests";
+			sourceTree = "<group>";
+		};
+		809CC5CC1F272CDA00A814C8 /* MTC GradingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				809CC5CD1F272CDA00A814C8 /* MTC_GradingUITests.swift */,
+				809CC5CF1F272CDA00A814C8 /* Info.plist */,
+			);
+			path = "MTC GradingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		809CC5A61F272CDA00A814C8 /* MTC Grading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 809CC5D21F272CDA00A814C8 /* Build configuration list for PBXNativeTarget "MTC Grading" */;
+			buildPhases = (
+				809CC5A31F272CDA00A814C8 /* Sources */,
+				809CC5A41F272CDA00A814C8 /* Frameworks */,
+				809CC5A51F272CDA00A814C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MTC Grading";
+			productName = "MTC Grading";
+			productReference = 809CC5A71F272CDA00A814C8 /* MTC Grading.app */;
+			productType = "com.apple.product-type.application";
+		};
+		809CC5BD1F272CDA00A814C8 /* MTC GradingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 809CC5D51F272CDA00A814C8 /* Build configuration list for PBXNativeTarget "MTC GradingTests" */;
+			buildPhases = (
+				809CC5BA1F272CDA00A814C8 /* Sources */,
+				809CC5BB1F272CDA00A814C8 /* Frameworks */,
+				809CC5BC1F272CDA00A814C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				809CC5C01F272CDA00A814C8 /* PBXTargetDependency */,
+			);
+			name = "MTC GradingTests";
+			productName = "MTC GradingTests";
+			productReference = 809CC5BE1F272CDA00A814C8 /* MTC GradingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		809CC5C81F272CDA00A814C8 /* MTC GradingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 809CC5D81F272CDA00A814C8 /* Build configuration list for PBXNativeTarget "MTC GradingUITests" */;
+			buildPhases = (
+				809CC5C51F272CDA00A814C8 /* Sources */,
+				809CC5C61F272CDA00A814C8 /* Frameworks */,
+				809CC5C71F272CDA00A814C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				809CC5CB1F272CDA00A814C8 /* PBXTargetDependency */,
+			);
+			name = "MTC GradingUITests";
+			productName = "MTC GradingUITests";
+			productReference = 809CC5C91F272CDA00A814C8 /* MTC GradingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		809CC59F1F272CD900A814C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "ANM Niaz Makhdum";
+				TargetAttributes = {
+					809CC5A61F272CDA00A814C8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					809CC5BD1F272CDA00A814C8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 809CC5A61F272CDA00A814C8;
+					};
+					809CC5C81F272CDA00A814C8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 809CC5A61F272CDA00A814C8;
+					};
+				};
+			};
+			buildConfigurationList = 809CC5A21F272CD900A814C8 /* Build configuration list for PBXProject "MTC Grading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 809CC59E1F272CD900A814C8;
+			productRefGroup = 809CC5A81F272CDA00A814C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				809CC5A61F272CDA00A814C8 /* MTC Grading */,
+				809CC5BD1F272CDA00A814C8 /* MTC GradingTests */,
+				809CC5C81F272CDA00A814C8 /* MTC GradingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		809CC5A51F272CDA00A814C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809CC5B81F272CDA00A814C8 /* LaunchScreen.storyboard in Resources */,
+				809CC5B51F272CDA00A814C8 /* Assets.xcassets in Resources */,
+				809CC5B01F272CDA00A814C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809CC5BC1F272CDA00A814C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809CC5C71F272CDA00A814C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		809CC5A31F272CDA00A814C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809CC5B31F272CDA00A814C8 /* MTC_Grading.xcdatamodeld in Sources */,
+				809CC5AD1F272CDA00A814C8 /* ViewController.swift in Sources */,
+				809CC5AB1F272CDA00A814C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809CC5BA1F272CDA00A814C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809CC5C31F272CDA00A814C8 /* MTC_GradingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809CC5C51F272CDA00A814C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809CC5CE1F272CDA00A814C8 /* MTC_GradingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		809CC5C01F272CDA00A814C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 809CC5A61F272CDA00A814C8 /* MTC Grading */;
+			targetProxy = 809CC5BF1F272CDA00A814C8 /* PBXContainerItemProxy */;
+		};
+		809CC5CB1F272CDA00A814C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 809CC5A61F272CDA00A814C8 /* MTC Grading */;
+			targetProxy = 809CC5CA1F272CDA00A814C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		809CC5AE1F272CDA00A814C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				809CC5AF1F272CDA00A814C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		809CC5B61F272CDA00A814C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				809CC5B71F272CDA00A814C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		809CC5D01F272CDA00A814C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		809CC5D11F272CDA00A814C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		809CC5D31F272CDA00A814C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MTC Grading/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Niaz.MTC-Grading";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		809CC5D41F272CDA00A814C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MTC Grading/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Niaz.MTC-Grading";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		809CC5D61F272CDA00A814C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MTC GradingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Niaz.MTC-GradingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTC Grading.app/MTC Grading";
+			};
+			name = Debug;
+		};
+		809CC5D71F272CDA00A814C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MTC GradingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Niaz.MTC-GradingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTC Grading.app/MTC Grading";
+			};
+			name = Release;
+		};
+		809CC5D91F272CDA00A814C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "MTC GradingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Niaz.MTC-GradingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "MTC Grading";
+			};
+			name = Debug;
+		};
+		809CC5DA1F272CDA00A814C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "MTC GradingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Niaz.MTC-GradingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "MTC Grading";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		809CC5A21F272CD900A814C8 /* Build configuration list for PBXProject "MTC Grading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809CC5D01F272CDA00A814C8 /* Debug */,
+				809CC5D11F272CDA00A814C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		809CC5D21F272CDA00A814C8 /* Build configuration list for PBXNativeTarget "MTC Grading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809CC5D31F272CDA00A814C8 /* Debug */,
+				809CC5D41F272CDA00A814C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		809CC5D51F272CDA00A814C8 /* Build configuration list for PBXNativeTarget "MTC GradingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809CC5D61F272CDA00A814C8 /* Debug */,
+				809CC5D71F272CDA00A814C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		809CC5D81F272CDA00A814C8 /* Build configuration list for PBXNativeTarget "MTC GradingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809CC5D91F272CDA00A814C8 /* Debug */,
+				809CC5DA1F272CDA00A814C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		809CC5B11F272CDA00A814C8 /* MTC_Grading.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				809CC5B21F272CDA00A814C8 /* MTC_Grading.xcdatamodel */,
+			);
+			currentVersion = 809CC5B21F272CDA00A814C8 /* MTC_Grading.xcdatamodel */;
+			path = MTC_Grading.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 809CC59F1F272CD900A814C8 /* Project object */;
+}
