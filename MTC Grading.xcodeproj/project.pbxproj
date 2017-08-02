@@ -15,6 +15,9 @@
 		809CC5B81F272CDA00A814C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 809CC5B61F272CDA00A814C8 /* LaunchScreen.storyboard */; };
 		809CC5C31F272CDA00A814C8 /* MTC_GradingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CC5C21F272CDA00A814C8 /* MTC_GradingTests.swift */; };
 		809CC5CE1F272CDA00A814C8 /* MTC_GradingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CC5CD1F272CDA00A814C8 /* MTC_GradingUITests.swift */; };
+		809CC5DC1F28966F00A814C8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CC5DB1F28966F00A814C8 /* TableViewController.swift */; };
+		809CC5DF1F28AC4900A814C8 /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CC5DD1F28AC4900A814C8 /* Student+CoreDataClass.swift */; };
+		809CC5E01F28AC4900A814C8 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CC5DE1F28AC4900A814C8 /* Student+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		809CC5C91F272CDA00A814C8 /* MTC GradingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MTC GradingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		809CC5CD1F272CDA00A814C8 /* MTC_GradingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTC_GradingUITests.swift; sourceTree = "<group>"; };
 		809CC5CF1F272CDA00A814C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		809CC5DB1F28966F00A814C8 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = SOURCE_ROOT; };
+		809CC5DD1F28AC4900A814C8 /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		809CC5DE1F28AC4900A814C8 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,8 @@
 		809CC59E1F272CD900A814C8 = {
 			isa = PBXGroup;
 			children = (
+				809CC5DD1F28AC4900A814C8 /* Student+CoreDataClass.swift */,
+				809CC5DE1F28AC4900A814C8 /* Student+CoreDataProperties.swift */,
 				809CC5A91F272CDA00A814C8 /* MTC Grading */,
 				809CC5C11F272CDA00A814C8 /* MTC GradingTests */,
 				809CC5CC1F272CDA00A814C8 /* MTC GradingUITests */,
@@ -101,6 +109,7 @@
 			children = (
 				809CC5AA1F272CDA00A814C8 /* AppDelegate.swift */,
 				809CC5AC1F272CDA00A814C8 /* ViewController.swift */,
+				809CC5DB1F28966F00A814C8 /* TableViewController.swift */,
 				809CC5AE1F272CDA00A814C8 /* Main.storyboard */,
 				809CC5B41F272CDA00A814C8 /* Assets.xcassets */,
 				809CC5B61F272CDA00A814C8 /* LaunchScreen.storyboard */,
@@ -262,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				809CC5E01F28AC4900A814C8 /* Student+CoreDataProperties.swift in Sources */,
 				809CC5B31F272CDA00A814C8 /* MTC_Grading.xcdatamodeld in Sources */,
 				809CC5AD1F272CDA00A814C8 /* ViewController.swift in Sources */,
 				809CC5AB1F272CDA00A814C8 /* AppDelegate.swift in Sources */,
+				809CC5DC1F28966F00A814C8 /* TableViewController.swift in Sources */,
+				809CC5DF1F28AC4900A814C8 /* Student+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
